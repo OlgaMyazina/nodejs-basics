@@ -1,5 +1,14 @@
+const PREFIX = 'RSS_'
+
 const parseEnv = () => {
-    // Write your code here 
+    const rssSetConstants = []
+    Object.entries(process.env).forEach(([key,value])=>{
+        if (key.startsWith(PREFIX)) {
+            rssSetConstants.push(`${key}=${value}`)
+        }
+    })
+
+    console.log(rssSetConstants.join('; '))
 };
 
 parseEnv();

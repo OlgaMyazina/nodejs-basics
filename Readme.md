@@ -77,3 +77,15 @@ To check `task 6`, you need to execute
 ```
 npm run fs:read
 ```
+
+### Command line interface
+
+---
+
+### task 7
+`env.js` - implement function that parses environment variables with prefix `RSS_` and prints them to the console in the format `RSS_name1=value1; RSS_name2=value2`
+
+To check `task 7`, you need to execute
+```
+npm run cli:env
+```
