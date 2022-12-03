@@ -57,3 +57,15 @@ To check `task 4`, you need to execute
 npm run fs:delete
 ```
 If you run again, you will get an error
+
+### task 5
+
+`list.js` - implement function that prints all array of filenames from `files` folder into console (if `files` folder doesn't exists `Error` with message `FS operation failed` must be thrown)
+
+#### How to check
+
+To check `task 5`, you need to execute
+```
+npm run fs:list
+```
+If you run again, you will get an error
