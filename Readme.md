@@ -97,3 +97,31 @@ To check `task 8`, you need to execute
 ```
 npm run cli:args
 ```
+
+
+### Modules
+
+---
+
+### task 9
+
+`cjsToEsm.cjs` - rewrite it to it's equivalent in ECMAScript notation (and rename it to `esm.mjs`)
+
+To check `task 9`, you need to execute
+```
+npm run modules
+```
+
+### Hash
+
+---
+
+### task 10
+
+`calcHash.js` - implement function that calculates SHA256 hash for file `fileToCalculateHashFor.txt` and logs it into console as `hex`
+
+To check `task 9`, you need to execute
+```
+npm run modules
+```
+
