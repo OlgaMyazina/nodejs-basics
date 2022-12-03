@@ -36,7 +36,7 @@ const rename = async () => {
             await renameFunction(pathToOldFile, pathToNewFile)
         }
     } catch (error) {
-        console.log(error)
+        console.error(error)
     }
 
 };
