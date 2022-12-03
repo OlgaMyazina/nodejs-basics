@@ -68,4 +68,12 @@ To check `task 5`, you need to execute
 ```
 npm run fs:list
 ```
-If you run again, you will get an error
+
+### task 6
+
+`read.js` - implement function that prints content of the `fileToRead.txt` into console (if there's no file `fileToRead.txt` `Error` with message `FS operation failed` must be thrown)
+
+To check `task 6`, you need to execute
+```
+npm run fs:read
+```
