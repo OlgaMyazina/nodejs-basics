@@ -118,10 +118,11 @@ npm run modules
 
 ### task 10
 
-`calcHash.js` - implement function that calculates SHA256 hash for file `fileToCalculateHashFor.txt` and logs it into console as `hex`
+`calcHash.js` - implement function that calculates `SHA256` hash for file `fileToCalculateHashFor.txt` and logs it into console as `hex`
 
-To check `task 9`, you need to execute
+To check `task 10`, you need to execute
 ```
-npm run modules
+npm run hash
 ```
+
 
