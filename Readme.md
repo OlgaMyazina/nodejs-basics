@@ -37,3 +37,11 @@ If you run again, you will get an error
 
 ### task 3
 `rename.js` - implement function that renames file `wrongFilename.txt` to `properFilename` with extension `.md` (if there's no file `wrongFilename.txt` or `properFilename.md` already exists `Error` with message `FS operation failed` must be thrown)
+
+#### How to check
+
+To check `task 3`, you need to execute
+```
+npm run fs:rename
+```
+If you run again, you will get an error
