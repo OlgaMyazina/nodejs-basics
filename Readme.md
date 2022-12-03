@@ -10,13 +10,23 @@
 ## lesson 1
 
 ### task 1
-`create.js` - implement function that creates new file fresh.txt with content `I am fresh and young` inside of the files folder (if file already exists Error with message FS operation failed must be thrown)
+`create.js` - implement function that creates new file `fresh.txt` with content `I am fresh and young` inside of the files folder (if file already exists `Error` with message `FS operation failed` must be thrown)
 
 #### How to check
 
-To check task 1, you need to execute
+To check `task 1`, you need to execute
 ```
 npm run fs:create
 ```
 If you run again, you will get an error
 
+### task 2
+`copy.js` - implement function that copies folder `files` files with all its content into folder `files_copy` at the same level (if files folder doesn't exists or `files_copy` has already been created `Error` with message `FS operation failed` must be thrown)
+
+#### How to check
+
+To check `task 2`, you need to execute
+```
+npm run fs:copy
+```
+If you run again, you will get an error
