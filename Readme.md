@@ -7,7 +7,11 @@
 - Don't change signature of pre-written functions (e.g. don't rename them, don't make them synchronous, etc.)
 - Prefer asynchronous API whenever possible
 
-## lesson 1
+## Node.js basics
+
+### File system
+
+---
 
 ### task 1
 `create.js` - implement function that creates new file `fresh.txt` with content `I am fresh and young` inside of the files folder (if file already exists `Error` with message `FS operation failed` must be thrown)
@@ -30,3 +34,6 @@ To check `task 2`, you need to execute
 npm run fs:copy
 ```
 If you run again, you will get an error
+
+### task 3
+`rename.js` - implement function that renames file `wrongFilename.txt` to `properFilename` with extension `.md` (if there's no file `wrongFilename.txt` or `properFilename.md` already exists `Error` with message `FS operation failed` must be thrown)
