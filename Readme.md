@@ -45,3 +45,15 @@ To check `task 3`, you need to execute
 npm run fs:rename
 ```
 If you run again, you will get an error
+
+### task 4
+
+`delete.js` - implement function that deletes file `fileToRemove.txt` (if there's no file `fileToRemove.txt` `Error` with message `FS operation failed` must be thrown)
+
+#### How to check
+
+To check `task 4`, you need to execute
+```
+npm run fs:delete
+```
+If you run again, you will get an error
