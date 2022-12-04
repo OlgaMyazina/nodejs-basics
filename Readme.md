@@ -145,8 +145,22 @@ npm run hash
 
 #### How to check
 
-To check `task 10`, you need to execute
+To check `task 11`, you need to execute
 ```
 npm run streams:read
 ```
+
+### task 12
+
+`write.js` - implement function that writes `process.stdin` data into file `fileToWrite.txt` content using Writable Stream
+
+#### How to check
+
+To check `task 12`, you need to execute
+
+```
+npm run streams:write
+```
+
+Write text to console. Check this text in file `files/fileToWrite.txt`.
 
