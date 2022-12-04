@@ -73,6 +73,8 @@ npm run fs:list
 
 `read.js` - implement function that prints content of the `fileToRead.txt` into console (if there's no file `fileToRead.txt` `Error` with message `FS operation failed` must be thrown)
 
+#### How to check
+
 To check `task 6`, you need to execute
 ```
 npm run fs:read
@@ -85,6 +87,8 @@ npm run fs:read
 ### task 7
 `env.js` - implement function that parses environment variables with prefix `RSS_` and prints them to the console in the format `RSS_name1=value1; RSS_name2=value2`
 
+#### How to check
+
 To check `task 7`, you need to execute
 ```
 npm run cli:env
@@ -92,6 +96,8 @@ npm run cli:env
 
 ### task 8
 `args.js` - implement function that parses command line arguments (given in format `--propName value --prop2Name value2`, you don't need to validate it) and prints them to the console in the format `propName is value, prop2Name is value2`
+
+#### How to check
 
 To check `task 8`, you need to execute
 ```
@@ -107,6 +113,8 @@ npm run cli:args
 
 `cjsToEsm.cjs` - rewrite it to it's equivalent in ECMAScript notation (and rename it to `esm.mjs`)
 
+#### How to check
+
 To check `task 9`, you need to execute
 ```
 npm run modules
@@ -120,9 +128,25 @@ npm run modules
 
 `calcHash.js` - implement function that calculates `SHA256` hash for file `fileToCalculateHashFor.txt` and logs it into console as `hex`
 
+#### How to check
+
 To check `task 10`, you need to execute
 ```
 npm run hash
 ```
 
+### Streams
+
+---
+
+### task 11
+
+`read.js` - implement function that reads file `fileToRead.txt` content using Readable Stream and prints it's content into `process.stdout`
+
+#### How to check
+
+To check `task 10`, you need to execute
+```
+npm run streams:read
+```
 
