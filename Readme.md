@@ -164,3 +164,15 @@ npm run streams:write
 
 Write text to console. Check this text in file `files/fileToWrite.txt`.
 
+### task 13
+
+`transform.js` - implement function that reads data from `process.stdin`, reverses text using Transform Stream and then writes it into `process.stdout`
+
+#### How to check
+
+To check `task 13`, you need to execute
+
+```
+npm run streams:transform
+```
+Write text to console. You can read reverses text
