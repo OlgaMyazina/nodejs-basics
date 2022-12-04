@@ -193,3 +193,16 @@ To check `zlib/compress`, you need to execute
 npm run zlib:compress
 ```
 Check if the archive `archive.gz` exists
+
+### zlib/decompress
+
+`decompress.js` - implement function that decompresses `archive.gz` back to the `fileToCompress.txt` with same content as before compression using zlib and Streams API
+
+#### How to check
+
+To check `zlib/decompress`, you need created `archive.gz` (You can run `npm run zlib:compress`)  and execute
+
+```
+npm run zlib:decompress
+```
+Check if the file `fileToCompress.txt` exists
