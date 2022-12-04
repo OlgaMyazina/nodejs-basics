@@ -176,3 +176,20 @@ To check `task 13`, you need to execute
 npm run streams:transform
 ```
 Write text to console. You can read reverses text
+
+### Zlib
+
+---
+
+### zlib/compress
+
+`compress.js` - implement function that compresses file `fileToCompress.txt` to `archive.gz` using zlib and Streams API
+
+#### How to check
+
+To check `zlib/compress`, you need to execute
+
+```
+npm run zlib:compress
+```
+Check if the archive `archive.gz` exists
